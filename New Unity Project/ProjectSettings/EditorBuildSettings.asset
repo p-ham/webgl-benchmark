@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/WebGLBenchmarkCubes.unity
     guid: 123c6834b9fa8b742b925684e7a487bf
   m_configObjects: {}
