@@ -7,7 +7,7 @@ function gameLoop() {
     let thisLoop = new Date();
     let fps = 1000 / (thisLoop - lastLoop);
     lastLoop = thisLoop;
-    fpsArray.push(fps);
+    fpsArray.push(Math.round(fps));
 }
 
 setTimeout(() => {

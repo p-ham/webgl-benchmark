@@ -17,7 +17,7 @@ public class MainBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (cubesCount < 1000) {
+        if (cubesCount < 10000) {
             // create a copy of the cube prefab
             cubes.Add(Instantiate(cube, getRandomPosition(), Random.rotation));
             // change the color of the copy
