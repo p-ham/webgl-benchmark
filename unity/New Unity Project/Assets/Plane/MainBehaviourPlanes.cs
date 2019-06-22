@@ -19,7 +19,7 @@ public class MainBehaviourPlanes : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (planesCount < 1000) {
+        if (planesCount < 10000) {
             // create a copy of the cube prefab
             planes.Add(Instantiate(plane, new Vector3(0,planesCount * 0.000001f,0), Quaternion.identity));
             // change the color of the copy

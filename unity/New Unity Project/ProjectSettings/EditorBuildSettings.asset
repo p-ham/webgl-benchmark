@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Cubes.unity
     guid: 123c6834b9fa8b742b925684e7a487bf
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Planes.unity
     guid: f5420e390d2e267498f459b6153c8b21
   m_configObjects: {}
